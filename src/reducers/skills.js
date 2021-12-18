@@ -27,19 +27,14 @@ export default function skillsReducer( state = initialState, action) {
       };
     case SEARCH_SKILLS_SUCCESS:
       const { items } = action.payload;
-
-      return {
-        ...state,
-        items,
-        loading: false,
-        error: null,
-      };
+      return { ...state, items, loading: false, error: null };
     case CHANGE_SEARCH_FIELD:
       const { search } = action.payload;
-
-      return {
-        ...state,
-        search };
+      if (search.trim().length) {
+        return { ...state, search };
+      }
+      // if search string is empty, then items should be empty as well
+      return { ...state, search, items: [] };
     default:
       return state;
   }

@@ -1,4 +1,4 @@
-import {CHANGE_SEARCH_FIELD, SEARCH_SKILLS_REQUEST, SEARCH_SKILLS_FAILURE, SEARCH_SKILLS_SUCCESS} from "./actionTypes";
+import { CHANGE_SEARCH_FIELD, SEARCH_SKILLS_REQUEST, SEARCH_SKILLS_FAILURE, SEARCH_SKILLS_SUCCESS } from "./actionTypes";
 
 export const searchSkillsRequest = search => ({
   type: SEARCH_SKILLS_REQUEST, payload: { search }

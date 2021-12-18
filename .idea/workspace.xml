@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce10e5c-e72a-4ca9-8084-1743009fe029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/epics/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/epics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/epics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639375986161</updated>
-      <workItem from="1639375988110" duration="11134000" />
+      <workItem from="1639375988110" duration="16032000" />
     </task>
+    <task id="LOCAL-00001" summary="Add task 1. Search">
+      <created>1639544601094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639544601094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add task 1. Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add task 1. Search" />
   </component>
 </project>
